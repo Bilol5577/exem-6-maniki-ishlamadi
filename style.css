@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{
+    max-width: 100%;
+    height: 517px;
+    background-color: #014E56;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1110px;
+    height: 48px;
+    color: white;
+    margin: 0 auto;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.group{
+    display: none;
+}
+.nav__button{
+    width: 153px;
+    height: 48px;
+    background-color: #014E56;
+    border: 2px solid white;
+    color: white;
+    border-radius: 24px;
+    font-size: 18px;
+}
+.nav__button:hover{
+    color: black;
+    background-color: white;
+}
+@media (max-width: 768.98px){
+    .header{
+        width: 768px;
+        height: 556px;
+    }
+    .nav{
+        width: 669px;
+    }
+    .header__div{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav ul{
+        gap: 40px;
+    }
+    main{
+        width: 768px;
+        height: 1219px;
+    }
+    .group{
+        display: none;
+    }
+    .section1{
+        height: 911px;
+    }
+    .section1__os{
+        width: 768px;
+        height: 911px;
+    }
+    .meet{
+        font-size: 32px;
+    }
+    .oval__os{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        border: 1px solid #004047; 
+        width: 762px;
+        height: 377px;
+        gap: 11px;
+    }
+    .oval{
+        width: 281px;
+        height: 281px;
+    }
+    .oval div{
+        margin-top: -1px;
+    }
+    .oval3{
+        margin: -15px;
+        width: 281px;
+        height: 281px;
+    }
+    .oval2{
+        width: 281px;
+        height: 281px;
+    }
+    .section2{
+        background-color: #004047;
+    }
+    .some{
+        font-size: 32px;
+    }
+    .cart{
+        gap: 49px;
+    }
+    .cart1{
+        width: 103px;
+        height: 17px;
+    }
+    .cart2{
+        width: 114px;
+        height: 14px;
+    }
+    .cart3{
+        width: 112px;
+        height: 17px;
+    }
+    .cart4{
+        width: 103px;
+        height: 17px;
+    }
+    .cart5{
+        width: 61px;
+        height: 28px;
+    }
+    .section3{
+        width: 768px;
+        height: 200px;
+        background-color: #F67E7E;
+    }
+    .section3__os{
+        gap: 84px;
+        justify-content: center;
+        width: 700px;
+    }
+    .section3__os h2{
+        font-size: 32px;
+    }
+}
+@media (max-width: 375.98px){
+    .header{
+        width: 375px;
+        height: 520px;
+    }
+    .nav{
+        width: 327px;
+        height: 32px;
+    }
+    .header__div{
+        width: 375px;
+    }
+    .nav ul{
+        display: none;
+    }
+    main{
+        width: 375px;
+    }
+    .group{
+        display: block;
+    }
+    .section1{
+        height: 1171px;
+        width: 373px;
+    }
+    .meet{
+        margin-top: -20px;
+    }
+    .section1__os{
+        width: 375px;
+    }
+    .oval__os{
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+        justify-content: center;
+        gap: 4px;
+        width: 375px;
+        height: 900px;
+    }
+    .oval div{
+        margin-top: -1px;
+    }
+    .oval{
+        width: 327px;
+        margin-top: 15px;
+    }
+    .oval3{
+        width: 327px;
+    }
+    .oval2{
+        margin-top: -25px;
+        width: 327px;
+    }
+    .section2{
+        width: 375px;
+        height: 517px;
+    }
+    .some{
+        margin-top: -10px;
+    }
+    .cart{
+        flex-wrap: wrap;
+        margin: 10px auto;
+        width: 162px;
+        height: 294px;
+    }
+    .cart1{
+        width: 146.56px;
+        height: 19px;
+    }
+    .cart2{
+        width: 162.21px;
+        height: 16px;
+    }
+    .cart3{
+        width: 159.37px;
+        height: 19px;
+    }
+    .cart4{
+        width: 146.56px;
+        height: 19px;
+    }
+    .cart5{
+        width: 86.8px;
+        height: 32px;
+    }
+    .section3{
+        width: 375px;
+        height: 302px;
+    }
+    .section3__os{
+        width: 327px;
+        height: 136px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .section3__os h2{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #012F34;
+    }
+}
+
