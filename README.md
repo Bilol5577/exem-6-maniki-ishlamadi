@@ -1,0 +1,1 @@
+# exem-6-maniki-ishlamadi
